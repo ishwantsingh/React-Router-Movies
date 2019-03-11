@@ -25,7 +25,9 @@ const MovieCard = (props, movie) => {
         </div>
       </Link>
       {/* {console.log(props.saveMovie)} */}
-      <div className="save-button">Save</div>
+      <div className="save-button" onClick={props.saveMovie}>
+        Save
+      </div>
     </div>
   );
 };
